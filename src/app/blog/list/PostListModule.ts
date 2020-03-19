@@ -1,9 +1,16 @@
 import { NgModule } from '@angular/core';
-
+import { PostListComponent } from './PostListComponent'
+import { MatCardModule } from "@angular/material/card";
 @NgModule({
-    imports:[],
-    exports:[],
-    declarations:[],
+    imports:[
+        MatCardModule
+    ],
+    exports:[
+        PostListComponent
+    ],
+    declarations:[
+        PostListComponent
+    ],
     providers:[]
 })
 

@@ -5,13 +5,15 @@ import { PostListModule } from './list/PostListModule';
 
 @NgModule({
     imports:[
-        PostListModule,
+        PostListModule
     ],
-    exports:[],
+    exports:[
+        PostListModule
+    ],
     declarations:[],
     providers:[
         PostService,
-        PostRessource,
+        PostRessource
     ]
 })
 
