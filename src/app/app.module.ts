@@ -8,6 +8,9 @@ import { HeaderComponent } from './Component/header/header.component';
 import { ErrorComponent } from './Component/error/error.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { DeclarationComponent } from './pages/declaration/declaration.component';
+import { AboutComponent } from './pages/about/about.component';
+import { FooterComponent } from './Component/footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,6 +19,9 @@ import { ContactComponent } from './pages/contact/contact.component';
     ErrorComponent,
     DashboardComponent,
     ContactComponent,
+    DeclarationComponent,
+    AboutComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
