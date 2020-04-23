@@ -1,26 +1,28 @@
-<nav class="navbar navbar-expand-sm navbar-light fixed-top" style="background: rgb(233, 233, 233);">
-    <div class="container">
-        <button (click)="visibility = !visibility" class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
-            data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" [routerLink]='[""]'>Drh-Katanga</a>
-        <div [ngClass]="{ 'show': visibility }" class="collapse navbar-collapse" id="collapsibleNavId">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" routerLink='' routerLinkActive="active">Acceuil</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" routerLink='/about' routerLinkActive="active">Apropos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" routerLink='/contact' routerLinkActive="active">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="btn btn-outline-success" routerLink='/declaration' routerLinkActive="active">Declaration impots</a>
-                </li>
-            </ul>
+<header>
+    <nav class="navbar navbar-expand-sm navbar-light fixed-top" style="background: rgb(233, 233, 233);">
+        <div class="container">
+            <button (click)="visibility = !visibility" class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" [routerLink]='[""]'>Drh-Katanga</a>
+            <div [ngClass]="{ 'show': visibility }" class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink='' routerLinkActive="active">Acceuil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink='/about' routerLinkActive="active">Apropos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink='/contact' routerLinkActive="active">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-outline-success" routerLink='/declaration' routerLinkActive="active">Declaration impots</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
+</header>
