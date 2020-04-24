@@ -1,12 +1,13 @@
 .font-background{
-    background: rgb(233, 233, 233);
-    height:490px;
+    background: #C2CAD0;
+    height:500px;
 }
 
 .fonta{
-    font-size: 25px;
-    margin-top: 3%;
+    font-size: 18px;
+    margin-top: 4%;
 }
+
 img{
     margin-left: -2%;
 }
@@ -26,15 +27,12 @@ a{
   color: #0062cc;
   border-bottom:2px solid #0062cc;
 }
-.box{
-    padding:60px 0px;
-}
 
 .box-part{
     background:#FFF;
     border-radius:0;
-    padding:60px 10px;
-    margin:30px 0px;
+    padding:30px 10px;
+    margin:20px 0px;
 }
 .text{
     margin:20px 0px;
