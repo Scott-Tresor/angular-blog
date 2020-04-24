@@ -2,10 +2,14 @@
     background: #C2CAD0;
     height:500px;
 }
-
+/* --color CDCDCD; */
 .fonta{
     font-size: 18px;
     margin-top: 4%;
+}
+.z-depth-5 {
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
 img{
@@ -13,7 +17,6 @@ img{
 }
 .my-card
 {
-    position:absolute;
     left:40%;
     top:-20px;
     border-radius:50%;
