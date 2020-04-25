@@ -1,64 +1,92 @@
-.font-background{
+.font-background {
     background: #C2CAD0;
-    height:500px;
+    height: 500px;
 }
+
 /* --color CDCDCD; */
-.fonta{
-    font-size: 18px;
+.fonta {
     margin-top: 4%;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: normal;
 }
+
+.circle-bg:after {
+    width: 300px;
+    height: 300px;
+    content: "";
+    z-index: -1;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -90px;
+    right: -90px;
+    background: #f8f9fa;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
 .z-depth-5 {
     -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
-img{
+img {
     margin-left: -2%;
 }
-.my-card
-{
-    left:40%;
-    top:-20px;
-    border-radius:50%;
+
+.my-card {
+    left: 40%;
+    top: -20px;
+    border-radius: 50%;
 }
+
 /****/
-span{
-    font-size:15px;
-}
-a{
-  text-decoration:none;
-  color: #0062cc;
-  border-bottom:2px solid #0062cc;
+span {
+    font-size: 15px;
 }
 
-.box-part{
-    background:#FFF;
-    border-radius:0;
-    padding:30px 10px;
-    margin:20px 0px;
-}
-.text{
-    margin:20px 0px;
+a {
+    text-decoration: none;
+    color: #0062cc;
+    border-bottom: 2px solid #0062cc;
 }
 
-.fa{
-     color:#4183D7;
+.box-part {
+    background: #FFF;
+    border-radius: 0;
+    padding: 30px 10px;
+    margin: 20px 0px;
 }
+
+.text {
+    margin: 20px 0px;
+}
+
+.fa {
+    color: #4183D7;
+}
+
 /***/
-@media screen and (max-width: 465px){
-    .font-background{
-        height:280px;
+@media screen and (max-width: 465px) {
+    .font-background {
+        height: 280px;
     }
-    h1{
+
+    h1 {
         font-size: 25px;
         margin-top: 15%;
     }
-    p.fonta{
+
+    p.fonta {
         font-size: 17px;
         top: 0;
         bottom: 0;
     }
-    .font-button{
+
+    .font-button {
         display: none;
     }
 
