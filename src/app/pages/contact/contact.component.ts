@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Contact } from '../../models/api.model';
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactComponent implements OnInit {
 
-  constructor() { }
+    contact: Contact[];
 
-  ngOnInit(): void {
-  }
+    constructor() { }
+
+    ngOnInit(): void {
+    }
+
+    ajouter()
+    {
+
+    }
 
 }
