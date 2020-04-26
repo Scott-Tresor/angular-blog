@@ -13,6 +13,7 @@ import { DeclarationComponent } from './pages/declaration/declaration.component'
 import { AboutComponent } from './pages/about/about.component';
 import { FooterComponent } from './Component/footer/footer.component';
 import { NewsletterComponent } from './pages/newsletter/newsletter.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { NewsletterComponent } from './pages/newsletter/newsletter.component';
   imports: [
     BrowserModule,
     FormsModule,
-    Route
+    Route,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
