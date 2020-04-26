@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { Route } from './app.routing';
+import { FormsModule } from '@angular/forms';
 import { NavbarComponent } from './Component/navbar/navbar.component';
 import { HeaderComponent } from './Component/header/header.component';
 import { ErrorComponent } from './Component/error/error.component';
@@ -28,6 +29,7 @@ import { NewsletterComponent } from './pages/newsletter/newsletter.component';
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     Route
   ],
   providers: [],

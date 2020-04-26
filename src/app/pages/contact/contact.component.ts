@@ -7,16 +7,18 @@ import { Contact } from '../../models/api.model';
 })
 export class ContactComponent implements OnInit {
 
-    contact: Contact[];
-
+    username: string;
+    email:string;
+    phones: number;
+    content:string;
     constructor() { }
 
     ngOnInit(): void {
     }
 
-    ajouter()
+    envoyer()
     {
-
+      console.log(this.username);
     }
 
 }

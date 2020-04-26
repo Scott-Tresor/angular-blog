@@ -1,12 +1,23 @@
-.contact-ground{
+.contact-ground {
     background: linear-gradient(to right, #c7e0dd, #e0efee);
     height: 300px;
 }
-.contact{
+
+.contact {
     padding-top: 9%;
 }
-.contact h3{
+
+.contact h3 {
     font-size: 52px;
     color: #2b044d;
     line-height: initial;
+}
+
+.ng-valid[required],
+.ng-valid.required {
+    border: 1px solid #42A948;
+}
+
+.ng-invalid:not(form) {
+    border: 1px solid #a94442;
 }
