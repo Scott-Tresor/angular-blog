@@ -7,7 +7,6 @@
 .fonta {
     margin-top: 4%;
     font-size: 16px;
-    line-height: 30px;
     font-weight: normal;
 }
 
@@ -29,8 +28,8 @@
 }
 
 .z-depth-5 {
-    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.075), 0 2px 10px 0 rgba(0, 0, 0, 0.041);
+    box-shadow: 0 2px 5px 0 rgba(65, 64, 64, 0.055), 0 2px 10px 0 rgba(0, 0, 0, 0.062);
 }
 
 img {

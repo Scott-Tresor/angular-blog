@@ -12,7 +12,7 @@ const ROUTING_PATH: Routes = [
     { path:'contact', component: ContactComponent, pathMatch:"full"},
     { path:'about', component: AboutComponent, pathMatch:"full"},
     { path:'declaration', component: DeclarationComponent, pathMatch:"full"},
-    { path: '**', component: ErrorComponent, pathMatch:"full"}
+    { path: '**', component: ErrorComponent, pathMatch:"full"},
 ];
 
 export const Route = RouterModule.forRoot(ROUTING_PATH);
