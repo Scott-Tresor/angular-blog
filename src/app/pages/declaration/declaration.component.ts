@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { ApiService } from '../../api.service';
+import { Router } from '@angular/router';
+import { Impots } from '../../models/api.model';
 
 @Component({
   selector: 'app-declaration',
@@ -7,9 +10,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DeclarationComponent implements OnInit {
 
-  constructor() { }
+    data: Impots;
+    constructor(private api: ApiService, private route: Router) { }
 
-  ngOnInit(): void {
-  }
+    ngOnInit(): void {
+    }
+
+    postImpot(formulaire)
+    {
+        this.api.addDeclaration(formulaire.value).subscribe(
+            success=>{
+
+            },
+            error=>{
+
+            }
+        );
+    }
 
 }

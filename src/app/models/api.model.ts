@@ -5,3 +5,10 @@ export interface Contact {
     phones:number;
     content:string;
 }
+
+export interface Impots {
+    username:string;
+    lastname:string;
+    prenom: string;
+    phones:number;
+}
