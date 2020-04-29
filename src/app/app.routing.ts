@@ -4,6 +4,7 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { AboutComponent } from './pages/about/about.component';
 import { DeclarationComponent } from './pages/declaration/declaration.component';
+import { DashComponent } from './Admin/dash/dash.component';
 
 
 
@@ -12,6 +13,11 @@ const ROUTING_PATH: Routes = [
     { path:'contact', component: ContactComponent, pathMatch:"full"},
     { path:'about', component: AboutComponent, pathMatch:"full"},
     { path:'declaration', component: DeclarationComponent, pathMatch:"full"},
+    { path: 'admin',  children:
+        [
+            { path: '', component: DashComponent}
+        ]
+    },
     { path: '**', component: ErrorComponent, pathMatch:"full"},
 ];
 
