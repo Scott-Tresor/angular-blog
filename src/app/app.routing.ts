@@ -15,7 +15,8 @@ const ROUTING_PATH: Routes = [
     { path:'declaration', component: DeclarationComponent, pathMatch:"full"},
     { path: 'admin',  children:
         [
-            { path: '', component: DashComponent}
+            { path: '', component: DashComponent},
+            { path: '**', component: ErrorComponent, pathMatch:"full"}
         ]
     },
     { path: '**', component: ErrorComponent, pathMatch:"full"},
