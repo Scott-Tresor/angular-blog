@@ -1,6 +1,6 @@
 <!--header-->
 <div class="contact-ground">
-    <div class="contact text-center ">
+    <div class="contact text-center">
         <h3>Nous contactez</h3>
         <div class="container">
             <p class="mt-4">
@@ -12,7 +12,7 @@
 <!--End Header-->
 <app-maps></app-maps>
 <!--contet-->
-<div class="container" style="margin-top: 6%;">
+<div class="container" style="margin-top: 5%;">
     <div class="row">
         <div class="col-md-9 col-lg-8 col-sm-12">
             <form (ngSubmit)="envoyer(formulaire)" #formulaire="ngForm">
@@ -39,7 +39,24 @@
             </form>
         </div>
         <div class="col-md-3 col-lg-4">
+                <div class="pt-4 text-left">
+					<p class="font-weight-bold">Adresse</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 
+					<p class="font-weight-bold">Téléphone</p>
+					<p>+243 999 888 777</p>
+
+					<p class="font-weight-bold">Email</p>
+					<p>drhkat@drhkat.gouv</p>
+				</div>
+				<div class="pt-4 pb-5">
+					<ul class="list-unstyled" style="align-content:center;">
+						<li class="d-inline-block"><a href="" class="btn btn-outline-primary rounded-circle"><span class="fa fa-facebook fa-1x ml-1 mr-1"></span></a></li>
+						<li class="d-inline-block"><a href="" class="btn btn-outline-info rounded-circle"><span class="fa fa-twitter fa-1x"></span></a></li>
+						<li class="d-inline-block"><a href="" class="btn btn-outline-danger rounded-circle"><span class="fa fa-instagram fa-1x"></span></a></li>
+						<li class="d-inline-block"><a href="" class="btn btn-outline-info rounded-circle"><span class="fa fa-linkedin fa-1x "></span></a></li>
+					</ul>
+				</div>
         </div>
     </div>
 </div>
