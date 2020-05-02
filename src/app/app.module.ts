@@ -15,7 +15,6 @@ import { FooterComponent } from './Component/footer/footer.component';
 import { NewsletterComponent } from './pages/newsletter/newsletter.component';
 import { HttpClientModule } from '@angular/common/http';
 import { MapsComponent } from './pages/maps/maps.component';
-import { DashComponent } from './Admin/dash/dash.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +29,6 @@ import { DashComponent } from './Admin/dash/dash.component';
     FooterComponent,
     NewsletterComponent,
     MapsComponent,
-    DashComponent,
   ],
   imports: [
     BrowserModule,
