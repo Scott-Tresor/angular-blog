@@ -12,3 +12,7 @@ export interface Impots {
     prenom: string;
     phones:number;
 }
+
+export interface newsletter {
+    email: string;
+}
