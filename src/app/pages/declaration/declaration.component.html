@@ -22,6 +22,66 @@
                 </div>
                 <div class="form-group">
                     <label for="firstname">Firstname</label>
+                    <input type="text" [(ngModel)]="firstname" name="firstname" id="firstname" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="prenom">Prenom</label>
+                    <input type="text" [(ngModel)]="prenom"  name="prenom" id="prenom" class="form-control">
+                </div>
+                <div class="form-group" class="mt-4">
+                    <label for="juridique">Forme Juridique</label>
+                    <select class="custom-select" [(ngModel)]="forme" name="forme" id="juridique">
+                        <option selected value="Personne morale ">Personne morale </option>
+                        <option value="Personne physique commercante">Personne physique commercante</option>
+                        <option value="Personne physique non commercante">Personne physique non commercante</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="NRC">NRC</label>
+                    <input type="text" name="" id="NRC" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="Exercice fiscal">Exercice fiscal</label>
+                    <input type="text" name="" id="Exercice fiscal" class="form-control">
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-sm-12">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" name="" id="email" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="adresse physique">Adresse</label>
+                    <input type="text" name="" id="adresse physique" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="Telephones">Telephones</label>
+                    <input type="text" name="" id="Telephones" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="Identifiant-nat">Identification nationale</label>
+                    <input type="text" name="" id="Identifiant-nat" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="Revenue">Revenue</label>
+                    <input type="text" name="" id="Revenue" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="Identifiant-id">Numero identification contribuable (*)</label>
+                    <input type="text" name="" id="Identifiant-id" class="form-control" readonly>
+                </div>
+            </div>
+        </div>
+
+        <h3>Identification du redevable: </h3>
+        <div class="row">
+            <div class="col-m</div>d-6 col-lg-6 col-sm-12">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text"  name="name" id="name" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="firstname">Firstname</label>
                     <input type="text" name="" id="firstname" class="form-control">
                 </div>
                 <div class="form-group">
@@ -73,6 +133,65 @@
             </div>
         </div>
 
+        <h3>Identification du redevable: </h3>
+        <div class="row">
+            <div class="col-m</div>d-6 col-lg-6 col-sm-12">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text"  name="name" id="name" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="firstname">Firstname</label>
+                    <input type="text" name="" id="firstname" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="prenom">Prenom</label>
+                    <input type="text" name="" id="prenom" class="form-control">
+                </div>
+                <div class="form-group" class="mt-4">
+                    <label for="juridique">Forme Juridique</label>
+                    <select class="custom-select" name="" id="juridique">
+                        <option selected value="Personne morale ">Personne morale </option>
+                        <option value="Personne physique commercante">Personne physique commercante</option>
+                        <option value="Personne physique non commercante">Personne physique non commercante</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="NRC">NRC</label>
+                    <input type="text" name="" id="NRC" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="Exercice fiscal">Exercice fiscal</label>
+                    <input type="text" name="" id="Exercice fiscal" class="form-control">
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-sm-12">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" name="" id="email" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="adresse physique">Adresse</label>
+                    <input type="text" name="" id="adresse physique" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="Telephones">Telephones</label>
+                    <input type="text" name="" id="Telephones" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="Identifiant-nat">Identification nationale</label>
+                    <input type="text" name="" id="Identifiant-nat" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="Revenue">Revenue</label>
+                    <input type="text" name="" id="Revenue" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="Identifiant-id">Numero identification contribuable (*)</label>
+                    <input type="text" name="" id="Identifiant-id" class="form-control" readonly>
+                </div>
+            </div>
+        </div>
         <button class="btn btn-success">Envoyer</button>
     </form>
 </div>

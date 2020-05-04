@@ -12,6 +12,9 @@ import sweetAlert from 'sweetalert2';
 export class DeclarationComponent implements OnInit {
 
     name: string;
+    firstname: string;
+    prenom: string;
+    forme: string;
     data: Impots;
     constructor(private api: ApiService, private route: Router) { }
 
