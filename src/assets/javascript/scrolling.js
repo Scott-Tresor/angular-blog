@@ -7,9 +7,18 @@ const options = {
 const  handleRequest = function (entries,  observer) {
     entries.forEach((entry) => {
         if (entry.IntersectionRatio > ration) {
-            observer.unobserve(entry.target)
+            entry.target.classList.add('.');
+            observer.unobserve(entry.target);
         }
     });
-}
-const Observer =  new IntersectionObserver(handleRequest, options);
-Observer.observe(document.querySelector('.'));
+};
+
+document.documentElement.classList.add('.');
+window.addEventListener('DOMContent', ()=>{
+    const Observer =  new IntersectionObserver(handleRequest, options);
+    document.querySelectorAll('.').forEach((r)=>{
+        Observer.observe(r);
+    });
+});
+
+
