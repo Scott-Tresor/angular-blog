@@ -15,6 +15,14 @@ export class DeclarationComponent implements OnInit {
     firstname: string;
     prenom: string;
     forme: string;
+    nrc: string;
+    exercice: string;
+    email: string;
+    adresse: string;
+    id_nation: string;
+    phones: number;
+    Revenue: string;
+    Identifiant_id: string;
     data: Impots;
     constructor(private api: ApiService, private route: Router) { }
 
