@@ -28,6 +28,8 @@
     "leaflet": "^1.6.0",
     "parallax-js": "^3.1.0",
     "path": "^0.12.7",
+    "rxjs": "~6.5.4",
+    "sweetalert2": "^9.17.1",
     "rxjs": "~6.6.2",
     "sweetalert2": "^9.10.2",
     "tslib": "^1.10.0",
