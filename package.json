@@ -25,7 +25,7 @@
     "compiler": "^0.1.2",
     "express": "^4.17.1",
     "font-awesome": "^4.7.0",
-    "leaflet": "^1.6.0",
+    "leaflet": "^1.7.1",
     "parallax-js": "^3.1.0",
     "path": "^0.12.7",
     "rxjs": "~6.5.4",
