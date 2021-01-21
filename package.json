@@ -21,7 +21,7 @@
     "@angular/platform-browser-dynamic": "~9.0.5",
     "@angular/router": "~9.0.5",
     "@sweetalert2/ngx-sweetalert2": "^8.1.1",
-    "bootstrap": "^4.5.3",
+    "bootstrap": "^4.6.0",
     "compiler": "^0.1.2",
     "express": "^4.17.1",
     "font-awesome": "^4.7.0",
